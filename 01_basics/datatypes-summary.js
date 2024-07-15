@@ -32,11 +32,11 @@ const myFuction = function(){
     console.log("Hello World");
 }
 
-console.log(typeof bigNumber);
-console.log(typeof outsideTemp);
-console.log(typeof scoreValue);
-console.log(typeof myFuction);
-console.log(typeof heros);
+// console.log(typeof bigNumber);
+// console.log(typeof outsideTemp);
+// console.log(typeof scoreValue);
+// console.log(typeof myFuction);
+// console.log(typeof heros);
 
 // Assignment
 
@@ -51,3 +51,21 @@ console.log(typeof heros);
 // Stack (Primitive), Heap (Non-Primitive)
 
 let myYoutubebname = "vikasmanhinde"
+
+let anotherName = myYoutubebname
+anotherName = "chaiaurcode"
+
+console.log(anotherName);
+console.log(myYoutubebname);
+
+let userOne = {
+    email: "vikas@mari.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "user@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
