@@ -42,3 +42,12 @@ console.log(typeof heros);
 
 // You have to check typeof All the DataTypes given above 
 // This various typeof questions aks in interview so be ready 
+
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubebname = "vikasmanhinde"
